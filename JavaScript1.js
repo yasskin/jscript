@@ -1,3 +1,13 @@
+//Simple calculator code, addition and then subtraction of 2 input values//
+var Noah = function(num1, num2) {
+	return num1 + num2;
+};
+
+var num1 = parseInt(prompt("Gimme a number:"));
+var num2 = parseInt(prompt("Gimme another number!"));
+
+alert(Noah(num1, num2));
+
 
 //Prompt the user to enter their age, another prompt to enter their name and another prompt to enter their favorite food. Pass these as arguments to a function that returns a sentence combining all of this information. Then display the returned string with an alert.//
 
